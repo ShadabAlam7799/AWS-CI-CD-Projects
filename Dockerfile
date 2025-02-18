@@ -1,6 +1,8 @@
 FROM python:3.8-slim-buster
 WORKDIR /app
-COPY . /app
+COPY app.py /app/
+COPY templates /app/templates/
+COPY requirements.txt /app/requirements.txt
 
 RUN apt update -y && apt install awscli -y
 
