@@ -1,1 +1,10 @@
-docker run -d --rm -p 5000:8080 --name containerABC my-custom-image:01
+https://www.youtube.com/watch?v=Xniji2m85LY
+
+CREATE DOCKER IMAGE
+docker build -t "my-aws-app:01" .
+
+LAUNCH DOCKER CONTAINER
+docker run -d --rm -p 5000:8080 --name container-name-ABC my-aws-app:01
+
+ECR URI
+783764595760.dkr.ecr.eu-north-1.amazonaws.com/my-first-aws-app
